@@ -1,0 +1,41 @@
+/* Variables */
+
+:root {  
+  --section-width: clamp(300px, 90vw, 1500px);
+  --pink: hsl(322, 100%, 66%);
+  --light-pink: hsl(321, 100%, 78%);
+  --light-red: hsl(0, 100%, 63%);
+  --dark-cyan: hsl(192, 100%, 9%);
+  --pale-blue: hsl(207, 100%, 98%);
+  --ff-h: "Poppins", sans-serif;
+  --ff-p: "Open Sans", sans-serif;
+  --fs-h1: 36px;
+  --fs-h2: 30px;
+  --fs-h3: 26px; 
+  --fs-p: 22px;
+  --fs-n: 40px;
+  --fw-1: 400;
+  --fw-2: 600;
+  --fw-3: 700;
+}
+
+/* General styling */
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-size: var(--fs-p);
+    font-family: var(--ff-p);
+    font-weight: var(--fw-1);
+    color: var(--dark-cyan);
+    background-color: white;
+}
+
+/* Header styling */
